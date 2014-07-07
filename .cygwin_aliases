@@ -1,0 +1,38 @@
+# ls modifiers
+alias l='ls --color=auto'
+alias ls='ls --color=auto'
+
+# cd aliases
+alias cone='cd /cygdrive/c/Users/Andrew/OneDrive'
+alias cdrop='cd /cygdrive/c/Users/Andrew/Dropbox'
+alias clocal='cd /cygdrive/c/Users/Andrew/Local'
+alias cdown='cd /cygdrive/c/Users/Andrew/Downloads'
+alias cdump='cd /cygdrive/c/Users/Andrew/Dropbox/dump'
+alias ccode='cd /cygdrive/c/Users/Andrew/Dropbox/code/'
+alias cweb='cd /cygdrive/c/Users/Andrew/Dropbox/code/web'
+alias c122='cd /cygdrive/c/Users/Andrew/Dropbox/school/freshf/15122'
+alias c150='cd /cygdrive/c/Users/Andrew/Dropbox/school/freshs/15150'
+alias c213='cd /cygdrive/c/Users/Andrew/Dropbox/school/freshs/15213'
+
+# grep aliases
+alias grep='grep --color'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+
+# ssh/scp aliases
+alias shadb='ssh adbenson@linux.andrew.cmu.edu'
+alias shxdb='ssh -X adbenson@linux.andrew.cmu.edu'
+alias sshark='ssh adbenson@shark.ics.cs.cmu.edu'
+alias scpwww='scp -r /cygdrive/c/Users/Andrew/Dropbox/code/web/afs/* adbenson@linux.andrew.cmu.edu:~/www'
+
+# kerberos
+alias kadb='kinit adbenson'
+
+# programs
+alias npp='notepad++'
+alias coin='rlwrap coin'
+alias subl='sublime_text'
+alias open='explorer'
+
+# andrew web publishing
+alias pubwww='curl "http://www.andrew.cmu.edu/cgi-bin/publish?FLAG=0&NAME=adbenson"'
