@@ -1,12 +1,22 @@
-[color]
-  ui = true
 [user]
   name = Andrew Benson
   email = adbenson@cmu.edu
 [core]
   editor = vim
+  excludesfile = /Users/andrew/.gitignore_global
   autocrlf = true
+[color]
+  ui = true
 [alias]
   lg = log --graph --pretty=format:'%Cgreen%h%Creset -%Cred%d%Creset %s %Cblue(%cd) <%an>%Creset' --abbrev-commit --date=local
   s = status
   c = commit
+  a = add
+[difftool "sourcetree"]
+  cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+  path =
+[mergetool "sourcetree"]
+  cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+  trustExitCode = true
+[pull]
+  rebase = true
