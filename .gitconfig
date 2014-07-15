@@ -3,7 +3,7 @@
   email = adbenson@cmu.edu
 [core]
   editor = vim
-  excludesfile = /Users/andrew/.gitignore_global
+  excludesfile = ~/.gitignore_global
   autocrlf = input
 [color]
   ui = true
