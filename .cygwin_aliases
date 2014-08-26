@@ -3,16 +3,22 @@ alias l='ls --color=auto'
 alias ls='ls --color=auto'
 
 # cd aliases
-alias cone='cd /cygdrive/c/Users/Andrew/OneDrive'
-alias cdrop='cd /cygdrive/c/Users/Andrew/Dropbox'
-alias clocal='cd /cygdrive/c/Users/Andrew/Local'
-alias cdown='cd /cygdrive/c/Users/Andrew/Downloads'
-alias cdump='cd /cygdrive/c/Users/Andrew/Dropbox/dump'
-alias ccode='cd /cygdrive/c/Users/Andrew/Dropbox/code/'
-alias cweb='cd /cygdrive/c/Users/Andrew/Dropbox/code/web'
-alias c122='cd /cygdrive/c/Users/Andrew/Dropbox/school/freshf/15122'
-alias c150='cd /cygdrive/c/Users/Andrew/Dropbox/school/freshs/15150'
-alias c213='cd /cygdrive/c/Users/Andrew/Dropbox/school/freshs/15213'
+ANDREW=/cygdrive/c/Users/Andrew
+WINHOME=$ANDREW/home
+DROPBOX=$WINHOME/Dropbox
+ONEDRIVE=$WINHOME/OneDrive
+
+alias chome='cd $WINHOME'
+alias cone='cd $ONEDRIVE'
+alias cdrop='cd $DROPBOX'
+alias clocal='cd $WINHOME/Local'
+alias cdown='cd $ANDREW/Downloads'
+alias cdump='cd $DROPBOX/dump'
+alias ccode='cd $DROPBOX/code/'
+alias cweb='cd $DROPBOX/code/web'
+alias c122='cd $DROPBOX/school/freshf/15122'
+alias c150='cd $DROPBOX/school/freshs/15150'
+alias c213='cd $DROPBOX/school/freshs/15213'
 
 # grep aliases
 alias grep='grep --color'
@@ -23,7 +29,7 @@ alias fgrep='fgrep --color=auto'
 alias shadb='ssh adbenson@linux.andrew.cmu.edu'
 alias shxdb='ssh -X adbenson@linux.andrew.cmu.edu'
 alias sshark='ssh adbenson@shark.ics.cs.cmu.edu'
-alias scpwww='scp -r /cygdrive/c/Users/Andrew/Dropbox/code/web/afs/* adbenson@linux.andrew.cmu.edu:~/www'
+alias scpwww='scp -r $DROPBOX/code/web/afs/* adbenson@linux.andrew.cmu.edu:~/www'
 
 # kerberos
 alias kadb='kinit adbenson'
