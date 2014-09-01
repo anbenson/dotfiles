@@ -34,6 +34,8 @@
 .psql_history
 .rvm/
 .sqlite_history
+.ssh/*
+!.ssh/config
 .subversion/
 .thunderbird/
 .vim/
