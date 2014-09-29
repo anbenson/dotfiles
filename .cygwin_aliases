@@ -40,6 +40,7 @@ alias npp='notepad++'
 alias coin='rlwrap coin'
 alias subl='sublime_text'
 alias open='explorer'
+alias em='emacs'
 
 # andrew web publishing
 alias pubwww='curl "http://www.andrew.cmu.edu/cgi-bin/publish?FLAG=0&NAME=adbenson"'
