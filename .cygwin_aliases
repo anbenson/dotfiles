@@ -38,6 +38,8 @@ alias kadb='kinit adbenson'
 # programs
 alias npp='notepad++'
 alias coin='rlwrap coin'
+alias python='rlwrap python'
+alias python3='rlwrap python3'
 alias subl='sublime_text'
 alias open='explorer'
 alias em='emacs'

@@ -25,6 +25,8 @@ alias scpwww='scp -r ~/Dropbox/code/web/afs/* adbenson@linux.andrew.cmu.edu:~/ww
 
 # programs
 alias coin='rlwrap coin'
+alias python='rlwrap python'
+alias python3='rlwrap python3'
 
 # andrew web publishing
 alias pubwww='curl "http://www.andrew.cmu.edu/cgi-bin/publish?FLAG=0&NAME=adbenson"'
