@@ -20,6 +20,7 @@ alias csophf='cd $DROPBOX/school/sophf'
 alias c122='cd $DROPBOX/school/freshf/15122'
 alias c150='cd $DROPBOX/school/freshs/15150'
 alias c213='cd $DROPBOX/school/freshs/15213'
+alias c251='cd $DROPBOX/school/sophf/15251'
 
 # grep aliases
 alias grep='grep --color'
