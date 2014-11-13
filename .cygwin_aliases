@@ -33,6 +33,10 @@ alias shxdb='ssh -X adbenson@linux.andrew.cmu.edu'
 alias sshark='ssh adbenson@shark.ics.cs.cmu.edu'
 alias scpwww='scp -r $DROPBOX/code/web/afs/* adbenson@linux.andrew.cmu.edu:~/www'
 
+# clipboard
+alias copy='echo > /dev/clipboard'
+alias paste='cat /dev/clipboard'
+
 # kerberos
 alias kadb='kinit adbenson'
 
