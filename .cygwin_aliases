@@ -8,11 +8,11 @@ WINHOME=$ANDREW/home
 DROPBOX=$WINHOME/Dropbox
 ONEDRIVE=$WINHOME/OneDrive
 
+alias cdown='cd $ANDREW/Downloads'
 alias chome='cd $WINHOME'
+alias clocal='cd $WINHOME/Local'
 alias cone='cd $ONEDRIVE'
 alias cdrop='cd $DROPBOX'
-alias clocal='cd $WINHOME/Local'
-alias cdown='cd $ANDREW/Downloads'
 alias cdump='cd $DROPBOX/dump'
 alias ccode='cd $DROPBOX/code/'
 alias cweb='cd $DROPBOX/code/web'
