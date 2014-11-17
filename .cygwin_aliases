@@ -27,6 +27,11 @@ alias grep='grep --color'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
 
+# gcc aliases
+GCC122='gcc -Wall -Werror -Wextra -std=c99 -pedantic'
+alias gccd='$GCC122 -DDEBUG -g'
+alias gcco='$GCC122'
+
 # ssh/scp aliases
 alias shadb='ssh adbenson@linux.andrew.cmu.edu'
 alias shxdb='ssh -X adbenson@linux.andrew.cmu.edu'
