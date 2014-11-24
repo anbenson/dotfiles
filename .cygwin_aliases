@@ -10,7 +10,6 @@ ONEDRIVE=$WINHOME/OneDrive
 
 alias cdown='cd $ANDREW/Downloads'
 alias chome='cd $WINHOME'
-alias clocal='cd $WINHOME/Local'
 alias cone='cd $ONEDRIVE'
 alias cdrop='cd $DROPBOX'
 alias cdump='cd $DROPBOX/dump'
