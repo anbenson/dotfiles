@@ -1,9 +1,6 @@
 BoldAsFont=no
 Term=xterm
 Transparency=low
-
-" credit: oumu on github
-" base16-shapeshifter-mod-lighten
 ForegroundColour=171,171,171
 BackgroundColour=0,0,0
 CursorColour=253,157,79
