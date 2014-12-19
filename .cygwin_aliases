@@ -2,6 +2,9 @@
 alias ls='ls --color=auto'
 alias l='ls'
 
+# less
+alias less='less -r'
+
 # cd aliases
 ANDREW=/cygdrive/c/Users/Andrew
 WINHOME=$ANDREW/home
