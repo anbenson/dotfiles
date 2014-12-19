@@ -1,6 +1,6 @@
 # ls modifiers
-alias l='ls --color=auto'
 alias ls='ls --color=auto'
+alias l='ls'
 
 # cd aliases
 ANDREW=/cygdrive/c/Users/Andrew
@@ -29,9 +29,8 @@ alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
 
 # gcc aliases
-GCC122='gcc -Wall -Werror -Wextra -std=c99 -pedantic'
-alias gccd='$GCC122 -DDEBUG -g'
-alias gcco='$GCC122'
+alias gcco='gcc -Wall -Werror -Wextra -std=c99 -pedantic'
+alias gccd='gcco -DDEBUG -g'
 
 # ssh/scp aliases
 alias shadb='ssh adbenson@linux.andrew.cmu.edu'
