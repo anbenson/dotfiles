@@ -16,6 +16,7 @@
 .gem/
 .gitk
 .gksu.lock
+.gradle/
 .grip/
 .gstreamer-0.10/
 .heroku/
