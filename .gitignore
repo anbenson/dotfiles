@@ -1,10 +1,9 @@
 .*.swp
-.bash_history
+.*_history
 .bash_logout
 .bash_profile
 .bashrc
 .cache/
-.coin_history
 .compiz/
 .config/
 .cpan/
@@ -22,7 +21,6 @@
 .heroku/
 .icons/
 .inputrc
-.irb-history
 .lesshst
 .local/
 .macromedia/
@@ -32,9 +30,7 @@
 .pip/
 .pki/
 .profile
-.psql_history
 .rvm/
-.sqlite_history
 .ssh/*
 !.ssh/config
 .subversion/
