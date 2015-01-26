@@ -20,6 +20,7 @@
 .gstreamer-0.10/
 .heroku/
 .icons/
+.idlerc/
 .inputrc
 .lesshst
 .local/
