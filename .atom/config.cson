@@ -1,0 +1,39 @@
+"*":
+  editor:
+    showIndentGuide: true
+    scrollPastEnd: true
+    tabLength: 2
+  core:
+    disabledPackages: [
+      "metrics"
+    ]
+    themes: [
+      "atom-dark-ui"
+      "solarized-dark-syntax"
+    ]
+  "exception-reporting":
+    userId: "443a618a-b811-d823-a3ad-ddcc42afbe37"
+  welcome:
+    showOnStartup: false
+  "vim-mode":
+    useClipboardAsDefaultRegister: true
+    useSmartcaseForSearch: true
+  "git-diff":
+    showIconsInEditorGutter: true
+  "grammar-selector":
+    showOnRightSideOfStatusBar: false
+  whitespace:
+    ignoreWhitespaceOnlyLines: true
+  tabs:
+    tabScrolling: true
+  linter:
+    statusBar: "Show all errors"
+  "atom-terminal-panel":
+    enableWindowAnimations: false
+  "linter-pylint":
+    executable: "C:\\Python27\\Scripts\\pylint"
+  minimap:
+    plugins:
+      "git-diff": true
+  "autocomplete-plus":
+    navigateCompletions: "ctrl-p,ctrl-n"
