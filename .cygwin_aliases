@@ -57,6 +57,7 @@ alias python='rlwrap python'
 alias python3='rlwrap python3'
 alias subl='sublime_text'
 alias atom='atom.cmd'
+alias apm='apm.cmd'
 alias open='explorer'
 alias em='emacs'
 
