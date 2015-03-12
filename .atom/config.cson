@@ -6,6 +6,7 @@
   core:
     disabledPackages: [
       "metrics"
+      "atom-ternjs"
     ]
     themes: [
       "atom-dark-ui"
@@ -37,3 +38,5 @@
       "git-diff": true
   "autocomplete-plus":
     navigateCompletions: "ctrl-p,ctrl-n"
+  "linter-htmlhint":
+    htmlhintExecutablePath: "C:\\Users\\Andrew\\AppData\\Roaming\\npm\\node_modules\\htmlhint\\bin\\htmlhint"
