@@ -2,4 +2,5 @@
 .DS_Store
 ~*.docx
 ~*.tmp
+.tern-project
 venv/
