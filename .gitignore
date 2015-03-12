@@ -2,7 +2,6 @@
 .*_history
 .bash_logout
 .bash_profile
-.bashrc
 .cache/
 .compiz/
 .config/
