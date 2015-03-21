@@ -59,16 +59,16 @@ alias kadb='kinit adbenson'
 
 # programs
 alias npp='notepad++'
+alias subl='sublime_text'
+alias atom='atom.cmd'
+alias apm='apm.cmd'
+alias em='emacs'
+alias open='cygstart'
 alias coin='rlwrap coin'
 alias sml='rlwrap sml'
 alias gdb='rlwrap gdb'
 alias python='rlwrap python'
 alias python3='rlwrap python3'
-alias subl='sublime_text'
-alias atom='atom.cmd'
-alias apm='apm.cmd'
-alias open='explorer'
-alias em='emacs'
 
 # andrew web publishing
 alias pubwww='curl "http://www.andrew.cmu.edu/cgi-bin/publish?FLAG=0&NAME=adbenson"'
