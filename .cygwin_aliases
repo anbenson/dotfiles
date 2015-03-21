@@ -12,10 +12,13 @@ alias ..='cd ..'
 
 ANDREW=/cygdrive/c/Users/Andrew
 WINHOME=$ANDREW/home
-DROPBOX=$WINHOME/Dropbox
+DOWN=$ANDREW/Downloads
 ONEDRIVE=$WINHOME/OneDrive
+DROPBOX=$WINHOME/Dropbox
+DUMP=$DROPBOX/dump
+SOPHS=$DROPBOX/school/sophs
 
-alias cdown='cd $ANDREW/Downloads'
+alias cdown='cd $DOWN'
 alias chome='cd $WINHOME'
 alias cone='cd $ONEDRIVE'
 alias cdrop='cd $DROPBOX'
@@ -29,6 +32,8 @@ alias c150='cd $DROPBOX/school/freshs/15150'
 alias c213='cd $DROPBOX/school/freshs/15213'
 alias c251='cd $DROPBOX/school/sophf/15251'
 alias c210='cd $DROPBOX/school/sophs/15210'
+alias c112='cd $DROPBOX/school/sophs/15112ta'
+alias c295='cd $DROPBOX/school/sophs/15295'
 
 # grep aliases
 alias grep='grep --color'
