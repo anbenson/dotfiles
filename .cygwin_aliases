@@ -8,6 +8,8 @@ alias la='ls -a'
 alias less='less -r'
 
 # cd aliases
+alias ..='cd ..'
+
 ANDREW=/cygdrive/c/Users/Andrew
 WINHOME=$ANDREW/home
 DROPBOX=$WINHOME/Dropbox
