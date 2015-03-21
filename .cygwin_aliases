@@ -46,7 +46,7 @@ alias gccd='gcco -DDEBUG -g'
 
 # ssh/scp aliases
 alias shadb='ssh adbenson@linux.andrew.cmu.edu'
-alias shxdb='ssh -X adbenson@linux.andrew.cmu.edu'
+alias shxdb='ssh -Y adbenson@linux.andrew.cmu.edu'
 alias sshark='ssh adbenson@shark.ics.cs.cmu.edu'
 alias scpwww='scp -r $DROPBOX/code/web/afs/* adbenson@linux.andrew.cmu.edu:~/www'
 
