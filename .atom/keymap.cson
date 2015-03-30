@@ -27,4 +27,3 @@
 # Don't allow fuzzy-find through ctrl-t. Make it new tab instead.
 '.platform-win32':
   'ctrl-t': 'application:new-file'
-  'ctrl-n': 'application:new-window'
