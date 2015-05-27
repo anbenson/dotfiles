@@ -6,6 +6,7 @@
 " - Setup .minttyrc to use solarized colors
 " - Install a patched version of Consolas
 " - Clone my dotfiles repo, or at least create ~/.vimtmp
+" - Create ~/.vim/undo
 " - git clone https://github.com/gmarik/Vundle.vim ~/.vim/bundle/Vundle.vim
 " - vim +PluginInstall +qall
 
@@ -96,6 +97,8 @@ set autoindent                            " indent new lines like previous line
 set backup                                " make backups (the .ext~ kind)
 set backupdir=~/.vimtmp,.                 " put backups into ~/.vimtmp
 set directory=~/.vimtmp,.                 " put swapfiles into ~/.vimtmp
+set undofile                              " backup undo history on write
+set undodir=~/.vim/undo                   " put undo backups into ~/.vim/undo
 
 " cursor customization
 let &t_ti.="\e[2 q"                       " enter vim -> solid block cursor
