@@ -5,7 +5,7 @@
   editor = vim
   excludesfile = ~/.gitignore_global
   autocrlf = input
-	filemode = false
+  filemode = false
 [color]
   ui = true
 [alias]
@@ -15,3 +15,5 @@
   a = add
 [pull]
   rebase = true
+[diff]
+  tool = kdiff3
