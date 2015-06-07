@@ -30,10 +30,10 @@ alias gcco='gcc -Wall -Werror -Wextra -std=c99 -pedantic'
 alias gccd='gcco -DDEBUG -g'
 
 # ssh/scp aliases
-alias shadb='ssh adbenson@linux.andrew.cmu.edu'
-alias shxdb='ssh -X adbenson@linux.andrew.cmu.edu'
+alias shadb='ssh adbenson@unix.andrew.cmu.edu'
+alias shxdb='ssh -X adbenson@unix.andrew.cmu.edu'
 alias sshark='ssh adbenson@shark.ics.cs.cmu.edu'
-alias scpwww='scp -r ~/Dropbox/code/web/afs/* adbenson@linux.andrew.cmu.edu:~/www'
+alias scpwww='scp -r ~/Dropbox/code/web/afs/* adbenson@unix.andrew.cmu.edu:~/www'
 
 # programs
 alias coin='rlwrap coin'
