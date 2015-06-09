@@ -56,7 +56,7 @@ filetype plugin indent on                 " turn on file-based plugins/indenting
 set encoding=utf-8                        " use utf-8 encoding
 set title                                 " show filename in window title
 set autochdir                             " auto cd to current file's directory
-set clipboard=unnamed                     " share clipboard with system
+set clipboard=unnamedplus                 " share clipboard with system
 set mouse=a                               " click/scroll support
 set equalalways                           " split windows always have same size
 set eadirection=hor                       " ^but only for horizontal splits
