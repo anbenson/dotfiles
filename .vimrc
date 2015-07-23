@@ -101,9 +101,7 @@ set undofile                              " backup undo history on write
 set undodir=~/.vim/undo                   " put undo backups into ~/.vim/undo
 
 " cursor customization
-if &term =~ '^xterm'
-  let &t_ti.="\e[2 q"                       " enter vim -> solid block cursor
-  let &t_SI.="\e[5 q"                       " enter insert -> blink line cursor
-  let &t_EI.="\e[2 q"                       " exit insert -> solid block cursor
-  let &t_te.="\e[5 q"                       " exit vim -> blink line cursor
-endif
+let &t_ti.="\e[2 q"                       " enter vim -> solid block cursor
+let &t_SI.="\e[5 q"                       " enter insert -> blink line cursor
+let &t_EI.="\e[2 q"                       " exit insert -> solid block cursor
+let &t_te.="\e[5 q"                       " exit vim -> blink line cursor
