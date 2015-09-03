@@ -10,6 +10,7 @@ OpaqueWhenFocused=yes
 Printer=Andrew B&W
 Locale=en_US
 Charset=UTF-8
+CtrlShiftShortcuts=yes
 
 Black=7,54,66
 Red=220,50,47
