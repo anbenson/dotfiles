@@ -1,6 +1,6 @@
 Term=xterm-256color
 FontHeight=11
-Font=Consolas
+Font=Source Code Pro
 BoldAsFont=yes
 BoldAsColour=no
 CursorType=line
