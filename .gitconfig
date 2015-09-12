@@ -17,5 +17,3 @@
   default = simple
 [pull]
   rebase = true
-[diff]
-  tool = kdiff3
