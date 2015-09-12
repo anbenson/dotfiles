@@ -20,7 +20,7 @@ CLIGHTGRAY="\e[37m"
 # determine current OS if first run
 if [ ! -f ~/.adb_os ]; then
   echo "Looks like this is your first time using bash on this computer."
-  read -p "What OS are you on? [cygwin(1), linux(2), or ask later]: " resp
+  read -p "What OS are you on? [cygwin(1), linux(2), or ask next time]: " resp
   case $resp in
     1|cygwin ) echo "export ADB_OS=\"cygwin\"" > ~/.adb_os;;
     2|linux  ) echo "export ADB_OS=\"linux\"" > ~/.adb_os;;
