@@ -1,5 +1,6 @@
 .*.swp
 .*_history
+.adb_os
 .bash_logout
 .bash_profile
 .cache/
@@ -7,6 +8,7 @@
 .config/
 .cpan/
 .dbus/
+.dbus-keyrings/
 .dropbox-dist/
 .dropbox/
 .ecryptfs
