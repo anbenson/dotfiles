@@ -1,8 +1,8 @@
 Term=xterm-256color
 FontHeight=11
 Font=Source Code Pro
-BoldAsFont=yes
-BoldAsColour=no
+BoldAsFont=no
+BoldAsColour=yes
 CursorType=line
 CursorBlinks=yes
 Transparency=low
