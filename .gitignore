@@ -1,6 +1,8 @@
 .*.swp
 .*_history
 .adb_os
+.android/
+.AndroidStudio1.2/
 .bash_logout
 .bash_profile
 .cache/
@@ -12,10 +14,12 @@
 .dropbox-dist/
 .dropbox/
 .ecryptfs
+.esd_auth
 .gconf/
 .gem/
 .gitk
 .gksu.lock
+.gnome2/
 .gradle/
 .grip/
 .gstreamer-0.10/
@@ -23,12 +27,15 @@
 .icons/
 .idlerc/
 .inputrc
+.java/
 .lesshst
 .local/
 .macromedia/
 .mozilla/
 .netrc
 .npm/
+.ocamlinit
+.opam/
 .pip/
 .pki/
 .profile
