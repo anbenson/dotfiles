@@ -1,11 +1,10 @@
 " .vimrc
 " Andrew Benson
-" my vim config file (currently configured for cygwin)
+" my vim config file
 "
 " How to Use
-" - Setup .minttyrc to use solarized colors
-" - Install a patched version of Consolas
-" - Clone my dotfiles repo.
+" - Setup terminal emulator (minttyrc, xterm) to use solarized colors
+" - Install and use a powerline-patched font like Adobe Source Code Pro
 " - mkdir -p .vim/backup .vim/swap .vim/undo
 " - git clone https://github.com/gmarik/Vundle.vim ~/.vim/bundle/Vundle.vim
 " - vim +PluginInstall +qall
