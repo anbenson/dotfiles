@@ -6,16 +6,16 @@
 [[ "$-" != *i* ]] && return
 
 # color aliases
-CRESET="\e[0m"
-CDEFAULT="\e[39m"
-CBLACK="\e[30m"
-CRED="\e[31m"
-CGREEN="\e[32m"
-CYELLOW="\e[33m"
-CBLUE="\e[34m"
-CMAGENTA="\e[35m"
-CCYAN="\e[36m"
-CLIGHTGRAY="\e[37m"
+CRESET="\[$(tput sgr0)\]"
+CDEFAULT="\[$(tput setaf 9)\]"
+CBLACK="\[$(tput setaf 0)\]"
+CRED="\[$(tput setaf 1)\]"
+CGREEN="\[$(tput setaf 2)\]"
+CYELLOW="\[$(tput setaf 3)\]"
+CBLUE="\[$(tput setaf 4)\]"
+CMAGENTA="\[$(tput setaf 5)\]"
+CCYAN="\[$(tput setaf 6)\]"
+CWHITE="\[$(tput setaf 7)\]"
 
 # determine current OS if first run
 if [ ! -f ~/.adb_os ]; then
