@@ -56,7 +56,6 @@ filetype plugin indent on                 " turn on file-based plugins/indenting
 set encoding=utf-8                        " use utf-8 encoding
 set title                                 " show filename in window title
 set autochdir                             " auto cd to current file's directory
-set clipboard=unnamedplus                 " share clipboard with system
 set mouse=a                               " click/scroll support
 set equalalways                           " split windows always have same size
 set eadirection=hor                       " ^but only for horizontal splits
@@ -70,6 +69,13 @@ set ttimeoutlen=50                        " 50 ms key code delay (kills lag
 set backspace=indent,eol,start            " allow backspacing over autoindents,
                                           "   line breaks, and start of insert
 syntax on                                 " turn on syntax highlighting
+
+" share clipboard with system
+if $ADB_OS ==# "linux"
+  set clipboard=unnamedplus
+else " $ADB_OS ==# cygwin
+  set clipboard=unnamed
+endif
 
 " lines/columns-related settings
 set number                                " show line numbers on the side
