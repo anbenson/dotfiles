@@ -26,7 +26,7 @@ Plugin 'tpope/vim-fugitive'               " git commands within vim
 Plugin 'airblade/vim-gitgutter'           " git diff support in the gutter
 Plugin 'scrooloose/nerdtree'              " file explorer
 Plugin 'jistr/vim-nerdtree-tabs'          " make nerdtree independent of tabs
-Plugin 'jez/vim-c0'                       " c0 syntax support
+Plugin 'cmugpi/vim-c0'                    " c0 syntax support
 
 call vundle#end()
 
