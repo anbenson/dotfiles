@@ -6,16 +6,16 @@
 [[ "$-" != *i* ]] && return
 
 # color aliases
-CRESET="$(tput sgr0)"
-CDEFAULT="$(tput setaf 9)"
-CBLACK="$(tput setaf 0)"
-CRED="$(tput setaf 1)"
-CGREEN="$(tput setaf 2)"
-CYELLOW="$(tput setaf 3)"
-CBLUE="$(tput setaf 4)"
-CMAGENTA="$(tput setaf 5)"
-CCYAN="$(tput setaf 6)"
-CWHITE="$(tput setaf 7)"
+CRESET="\[$(tput sgr0)\]"
+CDEFAULT="\[$(tput setaf 9)\]"
+CBLACK="\[$(tput setaf 0)\]"
+CRED="\[$(tput setaf 1)\]"
+CGREEN="\[$(tput setaf 2)\]"
+CYELLOW="\[$(tput setaf 3)\]"
+CBLUE="\[$(tput setaf 4)\]"
+CMAGENTA="\[$(tput setaf 5)\]"
+CCYAN="\[$(tput setaf 6)\]"
+CWHITE="\[$(tput setaf 7)\]"
 
 # determine current OS if first run
 if [ ! -f ~/.adb_os ]; then
@@ -62,7 +62,7 @@ PS1_RETVALUE="\$(if [[ \$? == 0 ]]; then echo \"${CGREEN}:)${CRESET}\"; else ech
 PS1_USER="${CYELLOW}\u@\h${CRESET}"
 PS1_CWD="${CBLUE}\w${CRESET}"
 PS1_TIME="${CRED}\@${CRESET}"
-PS1_GIT='${CCYAN}$(__git_ps1)${CRESET}'
+PS1_GIT="${CCYAN}\$(__git_ps1)${CRESET}"
 PS1_END="${CGREEN}\$${CRESET}"
 PS1="${PS1_WINDOW_TITLE}\n${PS1_RETVALUE} ${PS1_USER} ${PS1_CWD}\n${PS1_TIME}${PS1_GIT}${PS1_END} "
 
