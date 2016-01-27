@@ -28,11 +28,11 @@ if [ ! -f ~/.adb_os ]; then
 fi
 
 # load variables
-source ~/.adb_os       # load current OS environment variable
-source ~/.bash_aliases # load aliases
-export EDITOR="vim"    # preferred editor is vim
-export DISPLAY=:0.0    # point X servers to localhost:0.0
-unset SMLNJ_HOME       # use Cygwin SML, not Windows SML
+source ~/.adb_os               # load current OS environment variable
+source ~/.bash_aliases         # load aliases
+export EDITOR="vim"            # preferred editor is vim
+export DISPLAY=:0.0            # point X servers to localhost:0.0
+export TERMINAL=gnome-terminal # some programs use this as the default terminal
 # add shortcut directories to PATH
 export PATH=~/.shortcuts:~/.shortcuts/c0:~/.shortcuts/sml:~/.shortcuts/java:$PATH
 
