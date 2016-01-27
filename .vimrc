@@ -61,7 +61,7 @@ set equalalways                           " split windows always have same size
 set eadirection=hor                       " ^but only for horizontal splits
 set showcmd                               " show key cmds in the vim status line
 set cursorline                            " highlight the current line
-set scrolloff=10                          " always keep >=10 lines around cursor
+set scrolloff=5                           " always keep >=5 lines around cursor
 set nostartofline                         " ctrl-{fbdu} should preserve position
 set lazyredraw                            " don't redraw during macros for perf
 set ttimeoutlen=50                        " 50 ms key code delay (kills lag
