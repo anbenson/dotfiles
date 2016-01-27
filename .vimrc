@@ -92,12 +92,13 @@ set incsearch                             " search while typing search pattern
 set nohlsearch                            " highlight all matches
 nnoremap <silent> <space> :noh<return><space>  " <space> removes highlights
 
-" indentation-related settings
+" spacing-related settings
 set tabstop=2                             " a tab is equivalent to 2 columns
 set softtabstop=2                         " tab in insert mode makes 2 columns
 set expandtab                             " tab in insert mode produces spaces
 set shiftwidth=2                          " >> and << should shift by 2 columns
 set autoindent                            " indent new lines like previous line
+set nojoinspaces                          " after a join, only one space after .
 
 " backup-related settings
 set backup                                " make backups (the .ext~ kind)
