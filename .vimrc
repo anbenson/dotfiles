@@ -89,7 +89,7 @@ match TooLong /\%81v.\+/                  " lines over 80 chars are TooLong
 set ignorecase                            " ignore case while searching
 set smartcase                             " ^unless search pattern has uppercase
 set incsearch                             " search while typing search pattern
-set hlsearch                              " highlight all matches
+set nohlsearch                            " highlight all matches
 nnoremap <silent> <space> :noh<return><space>  " <space> removes highlights
 
 " indentation-related settings
