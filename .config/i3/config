@@ -172,4 +172,4 @@ bindsym XF86MonBrightnessUp exec light -A 10
 # decrease brightness
 bindsym XF86MonBrightnessDown exec light -U 10
 
-bindsym ctrl+$mod+l exec i3lock
+bindsym Mod4+l exec i3lock
