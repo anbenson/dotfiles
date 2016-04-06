@@ -16,12 +16,12 @@ filetype off                              " required by Vundle, temporarily
 set rtp+=~/.vim/bundle/Vundle.vim         " add Vundle to 'runtime path'
 call vundle#begin()
 
-Plugin 'gmarik/Vundle.vim'                " Vundle manages itself...
+Plugin 'VundleVim/Vundle.vim'             " Vundle manages itself...
 
 Plugin 'altercation/vim-colors-solarized' " solarized color scheme
 Plugin 'tomasr/molokai'                   " molokai color scheme
 
-Plugin 'bling/vim-airline'                " prettier statusline
+Plugin 'vim-airline/vim-airline'          " prettier statusline
 Plugin 'tpope/vim-fugitive'               " git commands within vim
 Plugin 'airblade/vim-gitgutter'           " git diff support in the gutter
 Plugin 'tpope/vim-commentary'             " shortcut for commenting
