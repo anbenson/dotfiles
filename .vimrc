@@ -29,6 +29,7 @@ Plugin 'tpope/vim-commentary'             " shortcut for commenting
 Plugin 'scrooloose/nerdtree'              " file explorer
 Plugin 'jistr/vim-nerdtree-tabs'          " make nerdtree independent of tabs
 Plugin 'cmugpi/vim-c0'                    " c0 syntax support
+Plugin 'LaTeX-Box-Team/LaTeX-Box'         " LaTeX shortcuts
 
 call vundle#end()
 
