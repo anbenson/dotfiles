@@ -22,6 +22,7 @@ Plugin 'altercation/vim-colors-solarized' " solarized color scheme
 Plugin 'tomasr/molokai'                   " molokai color scheme
 
 Plugin 'vim-airline/vim-airline'          " prettier statusline
+Plugin 'vim-airline/vim-airline-themes'   " prettier statusline
 Plugin 'tpope/vim-fugitive'               " git commands within vim
 Plugin 'airblade/vim-gitgutter'           " git diff support in the gutter
 Plugin 'tpope/vim-commentary'             " shortcut for commenting
