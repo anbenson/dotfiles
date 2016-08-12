@@ -73,6 +73,7 @@ URxvt.thickness:               12
 URxvt.saveLines:               8192
 URxvt.scrollTtyOutput:         false
 URxvt.scrollWithBuffer:        true
+URxvt.scrollTtyKeypress:       true
 
 ! Cursor
 URxvt*cursorColor:             S_base1
