@@ -18,6 +18,11 @@ installdotfile() {
   fi
 }
 
+if [ $UID == 0 ]; then
+  echo "This script must be run as user!"
+  exit 1
+fi
+
 installdotfile .atom                  $HOME/.atom
 installdotfile .bashrc                $HOME/.bashrc
 installdotfile .config/i3/config      $HOME/.config/i3/config

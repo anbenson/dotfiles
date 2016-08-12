@@ -18,6 +18,11 @@ installdotfile() {
   fi
 }
 
+if [ $UID != 0 ]; then
+  echo "This script requires sudo privileges!"
+  exit 1
+fi
+
 installdotfile .X.d/70-synaptics.conf /etc/X11/xorg.conf.d/70-synaptics.conf
 
 echo -e "\nFinished."
