@@ -73,7 +73,7 @@ set backspace=indent,eol,start            " allow backspacing over autoindents,
 syntax on                                 " turn on syntax highlighting
 
 " share clipboard with system
-if $ADB_OS ==# "linux"
+if $PLAT ==# "linux"
   set clipboard=unnamedplus
 else " $ADB_OS ==# cygwin
   set clipboard=unnamed
