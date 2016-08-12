@@ -1,9 +1,9 @@
 " .vimrc
 " Andrew Benson
-" my vim config file
+" vim configuration
 "
 " How to Use
-" - Setup terminal emulator (minttyrc, xterm) to use solarized colors
+" - Set up terminal emulator (minttyrc, urxvt, etc) to use solarized colors
 " - Install and use a powerline-patched font like Adobe Source Code Pro
 " - mkdir -p .vim/backup .vim/swap .vim/undo
 " - git clone https://github.com/gmarik/Vundle.vim ~/.vim/bundle/Vundle.vim
