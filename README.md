@@ -3,4 +3,5 @@ dotfiles
 
 Configuration files for my personal use. Use for reference if you like.
 
-Don't steal my personal info if I accidentally left it in.
+Although there is an install script, I make no guarantee of its safety. Use at
+your own risk.
