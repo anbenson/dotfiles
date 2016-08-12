@@ -32,6 +32,7 @@ installdotfile .vimrc            $HOME/.vimrc
 installdotfile .xinitrc          $HOME/.xinitrc
 installdotfile .Xmodmap          $HOME/.Xmodmap
 installdotfile .Xresources       $HOME/.Xresources
+installdotfile .ssh/config       $HOME/.ssh/config
 
 echo -e "\nFinished."
 echo "You may want to remove certain symlinks depending on your OS."
