@@ -18,7 +18,7 @@ installdotfile() {
   fi
 }
 
-installdotfile 70-synaptics.conf /etc/X11/xorg.conf.d/70-synaptics.conf
+installdotfile .X.d/70-synaptics.conf /etc/X11/xorg.conf.d/70-synaptics.conf
 
 echo -e "\nFinished."
 echo "You may want to remove certain symlinks depending on your OS."
