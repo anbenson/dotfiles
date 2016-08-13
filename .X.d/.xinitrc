@@ -58,7 +58,7 @@ case $(hostname) in
     xrandr --output HDMI-1 --left-of eDP-1;;
   heracross )
     # Mark the main screen as primary
-    xrandr --output eDP1 --primary;;
+    xrandr --output eDP-1 --primary;;
   * )
     echo "Unknown hostname $hostname. Skipping monitor configuration...";;
 esac
