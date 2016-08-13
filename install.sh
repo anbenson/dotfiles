@@ -23,21 +23,23 @@ if [ $UID == 0 ]; then
   exit 1
 fi
 
-installdotfile .atom                  $HOME/.atom
-installdotfile .bashrc                $HOME/.bashrc
-installdotfile .config/i3/config      $HOME/.config/i3/config
-installdotfile .emacs                 $HOME/.emacs
-installdotfile .gitconfig             $HOME/.gitconfig
-installdotfile .gitignore_global      $HOME/.gitignore_global
-installdotfile .minttyrc              $HOME/.minttyrc
-installdotfile .scripts               $HOME/bin/scripts
-installdotfile .shell.d               $HOME/.shell.d
-installdotfile .tmux.conf             $HOME/.tmux.conf
-installdotfile .vimrc                 $HOME/.vimrc
-installdotfile .X.d/.xinitrc          $HOME/.xinitrc
-installdotfile .X.d/.Xmodmap          $HOME/.Xmodmap
-installdotfile .X.d/.Xresources       $HOME/.Xresources
-installdotfile .ssh/config            $HOME/.ssh/config
+installdotfile .atom                        $HOME/.atom
+installdotfile .bashrc                      $HOME/.bashrc
+installdotfile .config/i3/config            $HOME/.config/i3/config
+installdotfile .emacs                       $HOME/.emacs
+installdotfile .gitconfig                   $HOME/.gitconfig
+installdotfile .gitignore_global            $HOME/.gitignore_global
+installdotfile .minttyrc                    $HOME/.minttyrc
+installdotfile .scripts                     $HOME/bin/scripts
+installdotfile .shell.d                     $HOME/.shell.d
+installdotfile .tmux.conf                   $HOME/.tmux.conf
+installdotfile .vimrc                       $HOME/.vimrc
+installdotfile .X.d/.xinitrc                $HOME/.xinitrc
+installdotfile .X.d/.Xmodmap                $HOME/.Xmodmap
+installdotfile .X.d/.Xresources             $HOME/.Xresources
+installdotfile .gtkrc-2.0                   $HOME/.gtkrc-2.0
+installdotfile .config/gtk-3.0/settings.ini $HOME/.config/gtk-3.0/settings.ini
+installdotfile .ssh/config                  $HOME/.ssh/config
 
 echo -e "\nFinished."
 echo "You may want to remove certain symlinks depending on your OS."
