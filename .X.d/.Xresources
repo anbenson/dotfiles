@@ -91,6 +91,15 @@ URxvt.scrollTtyKeypress:       true
 URxvt*cursorColor:             S_base1
 URxvt*cursorUnderline:         true
 
+! Extensions
+URxvt.perl-ext-common:         default,matcher,resize-font
+URxvt.url-launcher:            /usr/bin/xdg-open
+URxvt.matcher.button:          1
+URxvt.matcher.rend.0:          Uline fg6
+URxvt.keysym.C-minus:          perl:resize-font:smaller
+URxvt.keysym.C-equal:          perl:resize-font:bigger
+URxvt.keysym.C-0:              perl:resize-font:reset
+
 ! ------------------------------------------------------------------------------
 ! ROFI Color theme
 ! ------------------------------------------------------------------------------
