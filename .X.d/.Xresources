@@ -103,6 +103,7 @@ URxvt.keysym.C-0:              perl:resize-font:reset
 ! ------------------------------------------------------------------------------
 ! ROFI Color theme
 ! ------------------------------------------------------------------------------
+rofi.font: Noto Mono 16
 rofi.color-enabled: true
 rofi.color-window: #273238, #273238, #1e2529
 rofi.color-normal: #273238, #c1c1c1, #273238, #394249, #ffffff
