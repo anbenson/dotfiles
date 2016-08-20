@@ -23,7 +23,8 @@ if [ $UID == 0 ]; then
   exit 1
 fi
 
-installdotfile .atom                        $HOME/.atom
+installdotfile .atom/config.cson            $HOME/.atom/config.cson
+installdotfile .atom/keymap.cson            $HOME/.atom/keymap.cson
 installdotfile .bashrc                      $HOME/.bashrc
 installdotfile .config/i3/config            $HOME/.config/i3/config
 installdotfile .emacs                       $HOME/.emacs
