@@ -27,6 +27,7 @@ installdotfile .atom/config.cson            $HOME/.atom/config.cson
 installdotfile .atom/keymap.cson            $HOME/.atom/keymap.cson
 installdotfile .bashrc                      $HOME/.bashrc
 installdotfile .config/i3/config            $HOME/.config/i3/config
+installdotfile .config/i3status/config      $HOME/.config/i3status/config
 installdotfile .emacs                       $HOME/.emacs
 installdotfile .gitconfig                   $HOME/.gitconfig
 installdotfile .gitignore_global            $HOME/.gitignore_global
