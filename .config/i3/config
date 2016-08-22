@@ -98,8 +98,10 @@ workspace_auto_back_and_forth yes
 # Workspace Aliases
 set $workspace1 "1: term  "
 set $workspace2 "2: firefox "
-set $workspace3 "3: todo "
-set $workspace4 "4: chat  "
+set $workspace3 "3: calendar "
+set $workspace4 "4: todo "
+set $workspace5 "5: chat  "
+set $workspace6 "6: onenote "
 
 # assignments
 assign [class="Firefox"] $workspace2
@@ -112,8 +114,8 @@ bindsym $mod+1 workspace $workspace1
 bindsym $mod+2 workspace $workspace2
 bindsym $mod+3 workspace $workspace3
 bindsym $mod+4 workspace $workspace4
-bindsym $mod+5 workspace 5
-bindsym $mod+6 workspace 6
+bindsym $mod+5 workspace $workspace5
+bindsym $mod+6 workspace $workspace6
 bindsym $mod+7 workspace 7
 bindsym $mod+8 workspace 8
 bindsym $mod+9 workspace 9
@@ -124,8 +126,8 @@ bindsym $mod+Shift+1 move container to workspace $workspace1
 bindsym $mod+Shift+2 move container to workspace $workspace2
 bindsym $mod+Shift+3 move container to workspace $workspace3
 bindsym $mod+Shift+4 move container to workspace $workspace4
-bindsym $mod+Shift+5 move container to workspace 5
-bindsym $mod+Shift+6 move container to workspace 6
+bindsym $mod+Shift+5 move container to workspace $workspace5
+bindsym $mod+Shift+6 move container to workspace $workspace6
 bindsym $mod+Shift+7 move container to workspace 7
 bindsym $mod+Shift+8 move container to workspace 8
 bindsym $mod+Shift+9 move container to workspace 9
