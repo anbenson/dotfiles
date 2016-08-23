@@ -195,7 +195,7 @@ bindsym XF86MonBrightnessDown exec light -U 10
 exec --no-startup-id nm-applet
 exec --no-startup-id dropbox start
 exec --no-startup-id feh --bg-scale ~/Dropbox/pictures/backgrounds_1920x1080/heracross.png
-exec --no-startup-id gnome-terminal
+exec --no-startup-id i3-sensible-terminal
 exec --no-startup-id env GTK_THEME=Arc-Darker firefox
 exec --no-startup-id /usr/bin/chromium "--profile-directory=Profile 2" --app-id=ojcflmmmcfpacggndoaaflkmcoblhnbh
 exec --no-startup-id /usr/share/slack/slack
