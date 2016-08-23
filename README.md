@@ -1,7 +1,10 @@
 dotfiles
 ============
 
-Configuration files for my personal use. Use for reference if you like.
+Configuration files for Linux (and to some extent, Cygwin). Feel free to reuse
+or suggest changes if some of the code seems odd.
 
-Although there is an install script, I make no guarantee of its safety. Use at
-your own risk.
+- Use at your own risk, especially the installation scripts.
+- I hate writing Bash, so any Bash scripts you see may be full of hacks and/or
+  may have inconsistent style.
+
