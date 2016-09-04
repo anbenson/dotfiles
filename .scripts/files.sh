@@ -3,6 +3,7 @@
 # creates file hierarchy in $HOME directory
 
 # creates the given folder in $HOME, unless it already exists
+# arg1: the folder to create
 createhomefolder() {
   if [ -d "$HOME/$1" ]; then
     echo "[WARN] Tried to create $HOME/$1, but it already exists!"
