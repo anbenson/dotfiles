@@ -22,13 +22,13 @@ createhomefolder code
 createhomefolder doc
 createhomefolder games
 createhomefolder incoming
+createhomefolder junk
 createhomefolder life
 createhomefolder media
 createhomefolder media/music
 createhomefolder media/pictures
 createhomefolder media/videos
 createhomefolder school
-createhomefolder temp
 createhomefolder transfer
 createhomefolder work
 
