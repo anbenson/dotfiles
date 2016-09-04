@@ -192,7 +192,6 @@ bindsym XF86MonBrightnessUp exec light -A 10
 bindsym XF86MonBrightnessDown exec light -U 10
 
 # Autostart
-exec --no-startup-id nm-applet
 exec --no-startup-id dropbox start
 exec --no-startup-id feh --bg-scale ~/Dropbox/pictures/backgrounds_1920x1080/heracross.png
 exec --no-startup-id i3-sensible-terminal
