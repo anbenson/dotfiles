@@ -27,6 +27,7 @@ createhomefolder life
 createhomefolder media
 createhomefolder media/music
 createhomefolder media/pictures
+createhomefolder media/pictures/screenshots
 createhomefolder media/videos
 createhomefolder school
 createhomefolder transfer
