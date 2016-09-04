@@ -106,7 +106,7 @@ set $workspace6 "6: onenote "
 # assignments
 assign [class="Firefox"] $workspace2
 assign [class="chromium" instance="crx_ojcflmmmcfpacggndoaaflkmcoblhnbh"] $workspace3
-assign [class="Slack"] $workspace4
+assign [class="Slack"] $workspace5
 assign [title="Messenger"] $workspace4
 
 # switch to workspace
@@ -198,8 +198,8 @@ exec --no-startup-id feh --bg-scale ~/Dropbox/pictures/backgrounds_1920x1080/her
 exec --no-startup-id i3-sensible-terminal
 exec --no-startup-id env GTK_THEME=Arc-Darker firefox
 exec --no-startup-id /usr/bin/chromium "--profile-directory=Profile 2" --app-id=ojcflmmmcfpacggndoaaflkmcoblhnbh
-exec --no-startup-id /usr/share/slack/slack
 exec --no-startup-id /opt/MessengerForDesktop/Messenger
+exec --no-startup-id /usr/bin/slack
 
 # Rofi
 bindsym $mod+space exec --no-startup-id rofi -modi drun -show drun
