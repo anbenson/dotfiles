@@ -48,6 +48,9 @@ createhomefolder  media/pictures
 linkhometodropbox media/pictures/screenshots screenshots
 createhomefolder  media/videos
 createhomefolder  other
+createhomefolder  other/desktop
+createhomefolder  other/templates
+createhomefolder  other/public
 linkhometodropbox school                     school
 linkhometodropbox transfer                   transfer
 linkhometodropbox work                       jobs
