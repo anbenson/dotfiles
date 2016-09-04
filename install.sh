@@ -44,6 +44,7 @@ installdotfile .config/dunst/dunstrc        $HOME/.config/dunst/dunstrc
 installdotfile .gtkrc-2.0                   $HOME/.gtkrc-2.0
 installdotfile .config/gtk-3.0/settings.ini $HOME/.config/gtk-3.0/settings.ini
 installdotfile .ssh/config                  $HOME/.ssh/config
+installdotfile .config/user-dirs.dirs       $HOME/.config/user-dirs.dirs
 
 echo -e "\nFinished."
 echo "You may want to remove certain symlinks depending on your OS."
