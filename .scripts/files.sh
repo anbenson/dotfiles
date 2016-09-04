@@ -25,7 +25,7 @@ createhomefolder incoming
 createhomefolder life
 createhomefolder media
 createhomefolder media/music
-createhomefolder media/photos
+createhomefolder media/pictures
 createhomefolder media/videos
 createhomefolder school
 createhomefolder temp
