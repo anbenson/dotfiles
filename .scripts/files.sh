@@ -7,7 +7,7 @@ createhomefolder() {
   if [ -d "$HOME/$1" ]; then
     echo "[WARN] Tried to create $HOME/$1, but it already exists!"
   else
-    mkdir -p "$HOME/$1"
+    mkdir "$HOME/$1"
     echo "Created $HOME/$1."
   fi
 }
