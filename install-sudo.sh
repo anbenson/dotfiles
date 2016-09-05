@@ -25,6 +25,7 @@ fi
 
 installdotfile .X.d/70-synaptics.conf /etc/X11/xorg.conf.d/70-synaptics.conf
 installdotfile .shell.d/android-sdk-platform-tools.sh /etc/profile.d/android-sdk-platform-tools.sh
+installdotfile .shell.d/c0.sh /etc/profile.d/c0.sh
 
 echo -e "\nFinished."
 echo "You may want to remove certain symlinks depending on your OS."
