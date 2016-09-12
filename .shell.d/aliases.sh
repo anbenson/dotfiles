@@ -27,6 +27,10 @@ alias fgrep="fgrep --color=auto"
 alias gcco="gcc -Wall -Werror -Wextra -std=c99 -pedantic"
 alias gccd="gcco -DDEBUG -g"
 
+# program aliases
+alias ev="evince"
+alias zt="zathura"
+
 # rlwrap programs
 if checkexists rlwrap "rlwrap'ing REPL programs"; then
   alias gdb="rlwrap gdb"
