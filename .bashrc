@@ -14,6 +14,7 @@ if [ -d "$SHELLD" ]; then
   source "$SHELLD/history.sh"
   source "$SHELLD/options.sh"
   source "$SHELLD/vars.sh"
+  source "$SHELLD/functions.sh"
   source "$SHELLD/prompt.sh"
 else
   echo -e "[WARN] Missing shell scripts directory at $SHELLD! Skipping bash configuration...\n"
