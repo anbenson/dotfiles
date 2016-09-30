@@ -40,7 +40,7 @@ createhomefolder  code
 createhomefolder  doc
 createhomefolder  games
 createhomefolder  incoming
-linkhometodropbox junk                       dump
+linkhometodropbox junk                       junk
 linkhometodropbox life                       manage
 createhomefolder  media
 createhomefolder  media/music
