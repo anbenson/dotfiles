@@ -11,7 +11,7 @@ alias lla="ls -l -A"
 alias llha="ls -l -h -A"
 
 # cd aliases
-alias back="cd $OLDPWD"
+alias back='cd $OLDPWD'
 alias ..="cd .."
 alias ...="cd ../.."
 
