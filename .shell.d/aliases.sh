@@ -29,6 +29,7 @@ alias gccd="gcco -DDEBUG -g"
 
 # program aliases
 alias ev="evince"
+alias zathura="env GDK_SCALE=1 zathura" # zathura does not support GDK_SCALE
 alias zt="zathura"
 
 # rlwrap programs
