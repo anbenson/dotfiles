@@ -1,6 +1,7 @@
 ! ------------------------------------------------------------------------------
 ! X
 ! ------------------------------------------------------------------------------
+Xft.dpi: 96
 Xft.autohint: 0
 Xft.lcdfilter: lcddefault
 Xft.hintstyle: hintslight
@@ -8,7 +9,7 @@ Xft.hinting: 1
 Xft.antialias: 1
 Xft.rgba: rgb
 Xcursor.theme: whiteglass
-Xcursor.size: 32
+Xcursor.size: 16
 
 ! ------------------------------------------------------------------------------
 ! URXVT
@@ -44,10 +45,10 @@ Xcursor.size: 32
 ! #define S_base3         #002b36
 
 ! Font
-URxvt.font:                    xft:SourceCodePro:pixelsize=24
-URxvt.boldFont:                xft:SourceCodePro:pixelsize=24:bold
-URxvt.italicFont:              xft:SourceCodePro:pixelsize=24:italic
-URxvt.boldItalicFont:          xft:SourceCodePro:pixelsize=24:bold:italic
+URxvt.font:                    xft:SourceCodePro:pixelsize=16
+URxvt.boldFont:                xft:SourceCodePro:pixelsize=16:bold
+URxvt.italicFont:              xft:SourceCodePro:pixelsize=16:italic
+URxvt.boldItalicFont:          xft:SourceCodePro:pixelsize=16:bold:italic
 URxvt.letterSpace:             -1
 
 ! Color
@@ -103,7 +104,7 @@ URxvt.keysym.C-0:              perl:resize-font:reset
 ! ------------------------------------------------------------------------------
 ! ROFI Color theme
 ! ------------------------------------------------------------------------------
-rofi.font: Noto Mono 16
+rofi.font: Noto Mono 12
 rofi.color-enabled: true
 rofi.color-window: #273238, #273238, #1e2529
 rofi.color-normal: #273238, #c1c1c1, #273238, #394249, #ffffff

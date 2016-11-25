@@ -34,21 +34,6 @@ fi
 # Disable PC beep
 xset -b
 
-# DPI configuration
-case $(hostname) in
-  hydreigon )
-    ;;
-  heracross )
-    # Xorg always sets DPI to 96. This forces it to be 192 for heracross' high
-    # resolution screen.
-    xrandr --dpi 192;
-    # GTK applications use these to scale the UI
-    export GDK_SCALE=2;
-    export GDK_DPI_SCALE=0.75;;
-  * )
-    echo "Unknown hostname $hostname. Skipping DPI configuration...";;
-esac
-
 # Monitor configuration
 case $(hostname) in
   hydreigon )
