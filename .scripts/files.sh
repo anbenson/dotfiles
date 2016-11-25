@@ -41,7 +41,7 @@ createhomefolder  doc
 createhomefolder  games
 createhomefolder  incoming
 linkhometodropbox junk                       junk
-linkhometodropbox life                       manage
+linkhometodropbox life                       life
 createhomefolder  media
 createhomefolder  media/music
 createhomefolder  media/pictures
@@ -52,8 +52,7 @@ createhomefolder  other/desktop
 createhomefolder  other/templates
 createhomefolder  other/public
 linkhometodropbox school                     school
-linkhometodropbox transfer                   transfer
-linkhometodropbox work                       jobs
+linkhometodropbox work                       work
 
 echo -e "\nFinished."
 
