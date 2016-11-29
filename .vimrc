@@ -6,7 +6,7 @@
 " - Set up terminal emulator (minttyrc, urxvt, etc) to use solarized colors
 " - Install and use a powerline-patched font like Adobe Source Code Pro
 " - mkdir -p .vim/backup .vim/swap .vim/undo
-" - git clone https://github.com/gmarik/Vundle.vim ~/.vim/bundle/Vundle.vim
+" - git clone https://github.com/VundleVim/Vundle.vim ~/.vim/bundle/Vundle.vim
 " - vim +PluginInstall +qall
 
 set nocompatible                          " break away from the vi past
