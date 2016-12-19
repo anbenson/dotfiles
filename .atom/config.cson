@@ -33,7 +33,10 @@
     autoReveal: true
     hideIgnoredNames: true
     hideVcsIgnoredFiles: true
-  "vim-mode":
+  "vim-mode-plus":
+    highlightSearch: true
+    incrementalSearch: true
+    useClipboardAsDefaultRegister: true
     useSmartcaseForSearch: true
   welcome:
     showOnStartup: false
