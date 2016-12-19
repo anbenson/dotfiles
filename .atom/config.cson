@@ -9,6 +9,7 @@
       "exception-reporting"
       "welcome"
     ]
+    telemetryConsent: "no"
   editor:
     atomicSoftTabs: false
     fontFamily: "Source Code Pro"
