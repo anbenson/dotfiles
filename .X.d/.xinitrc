@@ -34,6 +34,7 @@ fi
 xset -b
 
 # Keyboard configuration
+setxkbmap -layout us,us -variant ,intl -option grp:win_space_toggle
 setxkbmap -option caps:swapescape
 
 # Monitor configuration
