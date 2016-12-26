@@ -38,7 +38,6 @@ installdotfile .tmux.conf                   $HOME/.tmux.conf
 installdotfile .vimrc                       $HOME/.vimrc
 installdotfile .config/termite/config       $HOME/.config/termite/config
 installdotfile .X.d/.xinitrc                $HOME/.xinitrc
-installdotfile .X.d/.Xmodmap                $HOME/.Xmodmap
 installdotfile .X.d/.Xresources             $HOME/.Xresources
 installdotfile .config/dunst/dunstrc        $HOME/.config/dunst/dunstrc
 installdotfile .gtkrc-2.0                   $HOME/.gtkrc-2.0

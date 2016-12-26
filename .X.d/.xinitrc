@@ -33,6 +33,9 @@ fi
 # Disable PC beep
 xset -b
 
+# Keyboard configuration
+setxkbmap -option caps:swapescape
+
 # Monitor configuration
 case $(hostname) in
   hydreigon )
