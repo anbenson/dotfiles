@@ -31,7 +31,7 @@ installdotfile .config/i3status/config      $HOME/.config/i3status/config
 installdotfile .emacs                       $HOME/.emacs
 installdotfile .gitconfig                   $HOME/.gitconfig
 installdotfile .gitignore_global            $HOME/.gitignore_global
-installdotfile .minttyrc                    $HOME/.minttyrc
+installdotfile .config/mintty/config        $HOME/.config/mintty/config
 installdotfile .scripts                     $HOME/bin/scripts
 installdotfile .shell.d                     $HOME/.shell.d
 installdotfile .tmux.conf                   $HOME/.tmux.conf
