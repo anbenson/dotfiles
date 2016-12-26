@@ -36,6 +36,7 @@ xset -b
 # Keyboard configuration
 setxkbmap -layout us,us -variant ,intl -option grp:win_space_toggle
 setxkbmap -option caps:swapescape
+setxkbmap -option terminate:ctrl_alt_bksp
 
 # Monitor configuration
 case $(hostname) in
