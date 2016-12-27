@@ -38,7 +38,5 @@ if checkexists rlwrap "rlwrap'ing REPL programs"; then
   alias coin="rlwrap coin"
   alias sml="rlwrap sml"
   alias ocaml="rlwrap ocaml"
-  alias python="rlwrap python"
-  alias python3="rlwrap python3"
 fi
 
