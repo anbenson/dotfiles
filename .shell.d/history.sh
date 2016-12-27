@@ -2,13 +2,13 @@
 # Andrew Benson
 # history configuration
 
-# if .history directory doesn't exist, create it
-if [ ! -d "$HOME/.history" ]; then
-  mkdir "$HOME/.history"
-fi
-
-# this directory is used for all history files of any kind
+# this directory will be used for all history files of any kind
 HISTDIR="$HOME/.history"
+
+# if .history directory doesn't exist, create it
+if [ ! -d $HISTDIR ]; then
+  mkdir -p $HISTDIR
+fi
 
 # bash history
 export HISTFILE="$HISTDIR/.bash_history"
