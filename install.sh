@@ -36,6 +36,7 @@ installdotfile .scripts                     $HOME/bin/scripts
 installdotfile .shell.d                     $HOME/.shell.d
 installdotfile .tmux.conf                   $HOME/.tmux.conf
 installdotfile .vimrc                       $HOME/.vimrc
+installdotfile .inputrc                     $HOME/.inputrc
 installdotfile .config/termite/config       $HOME/.config/termite/config
 installdotfile .X.d/.xinitrc                $HOME/.xinitrc
 installdotfile .X.d/.Xresources             $HOME/.Xresources

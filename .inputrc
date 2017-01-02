@@ -1,0 +1,11 @@
+# .inputrc
+# Andrew Benson
+# readline configuration
+
+$include /etc/inputrc
+
+# treat directory symlinks like directories, not files
+set mark-symlinked-directories on
+
+# complete with color
+set colored-stats on
