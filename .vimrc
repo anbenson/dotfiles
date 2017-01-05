@@ -75,7 +75,7 @@ syntax on                                 " turn on syntax highlighting
 " share clipboard with system
 if $PLAT ==# "linux"
   set clipboard=unnamedplus
-else " $ADB_OS ==# cygwin
+else " $PLAT ==# cygwin
   set clipboard=unnamed
 endif
 
