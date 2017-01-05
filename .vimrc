@@ -3,7 +3,7 @@
 " vim configuration
 "
 " How to Use
-" - Set up terminal emulator (minttyrc, urxvt, etc) to use solarized colors
+" - Set up terminal emulator (termite, mintty, etc) to use solarized colors
 " - Install and use a powerline-patched font like Adobe Source Code Pro
 " - mkdir -p .vim/backup .vim/swap .vim/undo
 " - git clone https://github.com/VundleVim/Vundle.vim ~/.vim/bundle/Vundle.vim
