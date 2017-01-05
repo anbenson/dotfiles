@@ -42,4 +42,3 @@ if checkexists rlwrap "rlwrap'ing REPL programs"; then
   alias sml="rlwrap sml"
   alias ocaml="rlwrap ocaml"
 fi
-
