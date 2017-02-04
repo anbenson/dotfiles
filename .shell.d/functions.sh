@@ -7,5 +7,5 @@ pacfind() {
 }
 
 pacsearch() {
-  pacman -Ss | grep $1
+  pacman -Ss $1
 }
