@@ -52,4 +52,7 @@ case $(hostname) in
     echo "Unknown hostname $hostname. Skipping monitor configuration...";;
 esac
 
+# SSH agent
+eval $(ssh-agent)
+
 exec i3
