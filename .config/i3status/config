@@ -26,7 +26,7 @@ volume master {
 }
 
 wireless _first_ {
-  format_up = "  %essid %quality"
+  format_up = "  %essid%quality"
   format_down = " No WiFi"
 }
 
