@@ -141,6 +141,17 @@ bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 
+new_window pixel 5
+
+gaps inner 10
+gaps outer 0
+
+smart_gaps on
+smart_borders on
+
+# class                 border  backgr. text    indicator child_border
+client.focused          #4c7899 #285577 #ffffff #2e9ef4   #999999
+
 bindsym $mod+comma exec killall -SIGUSR1 dunst # pause
 bindsym $mod+Shift+comma exec killall -SIGUSR2 dunst # resume
 
