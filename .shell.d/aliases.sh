@@ -28,12 +28,13 @@ alias gcco="gcc -Wall -Werror -Wextra -std=c99 -pedantic"
 alias gccd="gcco -DDEBUG -g"
 
 # program aliases
-alias ev="evince"
-alias zathura="env GDK_SCALE=1 zathura" # zathura does not support GDK_SCALE
-alias zt="zathura"
 if exists dropbox-cli; then
   alias dropbox="dropbox-cli"
 fi
+alias ev="evince"
+alias wl="wunderline"
+alias zathura="env GDK_SCALE=1 zathura" # zathura does not support GDK_SCALE
+alias zt="zathura"
 
 # rlwrap programs
 if checkexists rlwrap "rlwrap'ing REPL programs"; then
