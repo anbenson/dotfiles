@@ -42,7 +42,7 @@ setxkbmap -option terminate:ctrl_alt_bksp
 case $(hostname) in
   hydreigon )
     # Mark the main screen as primary
-    xrandr --output eDP-1 --primary;
+    xrandr --output HDMI-1 --primary;
     # Put the HDMI monitor to the left of the main screen
     xrandr --output HDMI-1 --left-of eDP-1;;
   heracross )
