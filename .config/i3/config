@@ -108,7 +108,8 @@ assign [class="Firefox"] $workspace2
 assign [class="outlook-calendar-nativefier-89d47e"] $workspace3
 assign [class="wunderlist-nativefier-ddec9e"] $workspace4
 assign [class="Slack"] $workspace5
-assign [class="facebook-messenger-nativefier-e11c9b"] $workspace5
+assign [class="facebook-messenger-nativefier-d40e3c"] $workspace5
+
 
 # switch to workspace
 bindsym $mod+1 workspace $workspace1
