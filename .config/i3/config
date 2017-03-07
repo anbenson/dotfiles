@@ -106,7 +106,7 @@ set $workspace6 "6: onenote "
 # assignments
 assign [class="Firefox"] $workspace2
 assign [class="outlook-calendar-nativefier-89d47e"] $workspace3
-assign [class="Chromium" instance="crx_ojcflmmmcfpacggndoaaflkmcoblhnbh"] $workspace4
+assign [class="wunderlist-nativefier-ddec9e"] $workspace4
 assign [class="Slack"] $workspace5
 assign [class="facebook-messenger-nativefier-e11c9b"] $workspace5
 
