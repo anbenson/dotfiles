@@ -212,10 +212,10 @@ exec --no-startup-id dropbox start
 exec --no-startup-id feh --bg-scale ~/other/Dropbox/pictures/backgrounds_1920x1080/heracross.png
 exec --no-startup-id i3-sensible-terminal
 exec --no-startup-id env GTK_THEME=Arc-Darker firefox
-exec --no-startup-id ~/bin/outlook-calendar-linux-x64/outlook-calendar
-exec --no-startup-id /usr/bin/chromium "--profile-directory=Profile 2" --app-id=ojcflmmmcfpacggndoaaflkmcoblhnbh
-exec --no-startup-id /usr/bin/slack
-exec --no-startup-id ~/bin/facebook-messenger-linux-x64/facebook-messenger
+exec --no-startup-id outlook-calendar
+exec --no-startup-id wunderlist
+exec --no-startup-id facebook-messenger
+exec --no-startup-id slack
 
 # Rofi
 bindsym $mod+space exec --no-startup-id rofi -modi drun -show drun
