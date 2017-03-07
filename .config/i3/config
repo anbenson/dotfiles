@@ -109,6 +109,7 @@ assign [class="outlook-calendar-nativefier-89d47e"] $workspace3
 assign [class="wunderlist-nativefier-ddec9e"] $workspace4
 assign [class="Slack"] $workspace5
 assign [class="facebook-messenger-nativefier-d40e3c"] $workspace5
+assign [class="onenote-nativefier-2f50cd"] $workspace6
 
 
 # switch to workspace
@@ -216,6 +217,7 @@ exec --no-startup-id outlook-calendar
 exec --no-startup-id wunderlist
 exec --no-startup-id facebook-messenger
 exec --no-startup-id slack
+exec --no-startup-id onenote
 
 # Rofi
 bindsym $mod+space exec --no-startup-id rofi -modi drun -show drun
