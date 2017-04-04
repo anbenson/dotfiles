@@ -102,6 +102,10 @@ if &term !=# "linux"                      " does not work in linux console
   let &t_te.="\e[4 q"                     " exit vim -> steady underline cursor
 endif
 
+" custom maps
+command! Wq wq                            " map Wq to wq
+command! WQ wq                            " map WQ to wq
+
 " PLUGIN SETTINGS
 
 " vim-colors-solarized settings
