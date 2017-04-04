@@ -11,6 +11,8 @@
 
 set nocompatible                          " break away from the vi past
 
+" PLUGIN MANAGEMENT
+
 " Vundle setup
 filetype off                              " required by Vundle, temporarily
 set rtp+=~/.vim/bundle/Vundle.vim         " add Vundle to 'runtime path'
@@ -33,26 +35,9 @@ Plugin 'LaTeX-Box-Team/LaTeX-Box'         " LaTeX shortcuts
 
 call vundle#end()
 
-" vim-colors-solarized settings
-set background=dark                       " use the dark colorscheme
-colorscheme solarized                     " use solarized colorscheme
-call togglebg#map("<F6>")                 " toggle background color with F6
-
-" vim-airline settings
-set laststatus=2                          " always show statusline (required to
-                                          "   see it without splitting)
-set noshowmode                            " don't show mode in vim statusline
-let g:airline_powerline_fonts=1           " use fancy symbols from patched font
-let g:airline#extensions#tabline#enabled=1 " show tab bar at top
-let g:airline_detect_paste=1              " show paste mode
-
-" vim-gitgutter settings
-hi clear SignColumn                       " don't highlight the side gutter
-
-" vim-nerdtree-tabs settings
-nmap <silent> <leader>t :NERDTreeTabsToggle<CR> " toggle nerdtree with \t
-
 filetype plugin indent on                 " turn on file-based plugins/indenting
+
+" VIM SETTINGS
 
 " general settings
 set encoding=utf-8                        " use utf-8 encoding
@@ -116,3 +101,24 @@ if &term !=# "linux"                      " does not work in linux console
   let &t_EI.="\e[2 q"                     " exit insert -> solid block cursor
   let &t_te.="\e[4 q"                     " exit vim -> steady underline cursor
 endif
+
+" PLUGIN SETTINGS
+
+" vim-colors-solarized settings
+set background=dark                       " use the dark colorscheme
+colorscheme solarized                     " use solarized colorscheme
+call togglebg#map("<F6>")                 " toggle background color with F6
+
+" vim-airline settings
+set laststatus=2                          " always show statusline (required to
+                                          "   see it without splitting)
+set noshowmode                            " don't show mode in vim statusline
+let g:airline_powerline_fonts=1           " use fancy symbols from patched font
+let g:airline#extensions#tabline#enabled=1 " show tab bar at top
+let g:airline_detect_paste=1              " show paste mode
+
+" vim-gitgutter settings
+hi clear SignColumn                       " don't highlight the side gutter
+
+" vim-nerdtree-tabs settings
+nmap <silent> <leader>t :NERDTreeTabsToggle<CR> " toggle nerdtree with \t
