@@ -103,6 +103,8 @@ if &term !=# "linux"                      " does not work in linux console
 endif
 
 " custom maps
+command! W  w                             " map W to w
+command! Q  q                             " map Q to q
 command! Wq wq                            " map Wq to wq
 command! WQ wq                            " map WQ to wq
 
