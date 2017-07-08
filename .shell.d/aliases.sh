@@ -3,7 +3,7 @@
 # shell aliases
 
 # ls aliases
-alias ls="ls --color=auto"
+alias ls="ls --color=auto --group-directories-first"
 alias l="ls"
 alias ll="ls -l"
 alias la="ls -A"
