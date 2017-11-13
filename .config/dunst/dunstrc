@@ -24,6 +24,7 @@
     startup_notification = false
     icon_position = left
     icon_folders = /usr/share/icons/gnome/16x16/status/:/usr/share/icons/gnome/16x16/devices/:/usr/share/icons/Numix-Circle/scalable/apps
+    max_icon_size = 92
 
 [frame]
     width = 5
