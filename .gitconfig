@@ -1,6 +1,6 @@
 [user]
   name = Andrew Benson
-  email = adbenson@cmu.edu
+  email = adbenson@google.com
 [core]
   editor = vim
   excludesfile = ~/.gitignore_global
