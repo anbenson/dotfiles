@@ -219,6 +219,8 @@ exec --no-startup-id wunderlist
 exec --no-startup-id facebook-messenger
 exec --no-startup-id slack
 exec --no-startup-id onenote
+exec --no-startup-id dconf load /desktop/ibus/ < $HOME/.dotfiles/ibus.dconf
+exec --no-startup-id ibus-daemon -drx
 
 # Rofi
 bindsym $mod+space exec --no-startup-id rofi -modi drun -show drun

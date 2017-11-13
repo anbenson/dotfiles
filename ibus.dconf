@@ -1,0 +1,10 @@
+[general]
+engines-order=['xkb:us::eng', 'libpinyin', 'mozc-jp', 'hangul']
+use-system-keyboard-layout=true
+preload-engines=['xkb:us::eng', 'libpinyin', 'mozc-jp', 'hangul']
+
+[general/hotkey]
+triggers=['<Super>a']
+
+[engine/hangul]
+hangul-keyboard='ro'

@@ -17,4 +17,9 @@ export TERMINAL=termite        # some programs use this as the default terminal
 export JAVA_HOME=/usr/lib/jvm/java-8-openjdk
 export ANDROID_HOME=/opt/android-sdk
 
+# Input method
+export GTK_IM_MODULE='ibus'
+export QT_IM_MODULE='ibus'
+export XMODIFIERS='@im=ibus'
+
 export VIRTUAL_ENV_DISABLE_PROMPT=1 # disable default venv prompt modification
