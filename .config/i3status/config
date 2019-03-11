@@ -47,5 +47,5 @@ battery 0 {
 }
 
 time {
-  format = " %a %-m/%-d/%y   %-I:%M:%S %p "
+  format = " %a %-m/%-d/%y   %I:%M:%S %p "
 }
