@@ -8,12 +8,12 @@
 SHELLD="$HOME/.shell.d"
 if [ -d "$SHELLD" ]; then
   source "$SHELLD/util.sh"
+  source "$SHELLD/vars.sh"
   source "$SHELLD/colors.sh"
   source "$SHELLD/external.sh"
   source "$SHELLD/aliases.sh"
   source "$SHELLD/history.sh"
   source "$SHELLD/options.sh"
-  source "$SHELLD/vars.sh"
   source "$SHELLD/functions.sh"
   source "$SHELLD/prompt.sh"
 else
